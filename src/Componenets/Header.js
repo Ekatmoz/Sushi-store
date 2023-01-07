@@ -4,7 +4,7 @@ const Header = () => {
     <div className="headerText">
       <h1>Taste of <span>Asia</span></h1>
       <p>Best products from Asia to your kitchen to deliver the best experience!</p>
-      <button className="firstBtn">See products</button>
+      <button className="firstBtn"><a href="#products">See products</a></button>
     </div>
     <div className="shape"></div>
   </div> );

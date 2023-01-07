@@ -64,6 +64,19 @@ button {
   justify-content: center;
   margin-top: 20px;
 }
+.search {
+  display: flex;
+  justify-content: center;
+}
+input {
+  width: 500px;
+}
+.bascket {
+  background-color: #FFBB0D;
+  border-radius: 50%;
+  margin-left: 50px;
+  padding: 10px;
+}
 
 /* ---- CARDS ---- */
 .products {
@@ -91,4 +104,38 @@ button {
   font-weight: bold;
   font-size: px;
 }
-
+a {
+  text-decoration: none;
+  color: #fff
+}
+.card-price {
+  display: flex;
+  justify-content: center;
+}
+/* ---- ABOUT ---- */
+.about-shape {
+  background-image: linear-gradient(180deg, #ffbb0D, #fff);
+  border-radius: 50px;
+  width: 700px;
+  height: 80px;
+  margin-left: 500px;
+}
+.about-header {
+  display: flex;
+  justify-content: space-around;
+}
+.secondBtn {
+  background-color: #fff;
+  border: 1px solid #FFBB0D;
+  width: 100px;
+}
+.btn {
+  color: #FFBB0D;
+}
+.block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 50px;
+}

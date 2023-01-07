@@ -1,6 +1,10 @@
 import img3 from "./img/img3.jpeg"
 import img4 from "./img/img4.jpeg"
 import img5 from "./img/img5.png"
+import img6 from "./img/img6.jpeg"
+import img7 from "./img/img7.jpeg"
+import img8 from "./img/img8.webp"
+
 export const data = [
   {
     id: 1,
@@ -56,12 +60,57 @@ export const data = [
   {
     id: 6,
     title: "Sriracha chili sauce, Flying Goose, 455ml",
-    searchTerm: "pasta",
+    searchTerm: "sauce",
     price: "1090",
     currency: "Ft",
-    description: `Farmer rice noodles are 3 mm wide rice flour noodles that are used mostly in the Asian recipes. The noodles have a delicate, soft and sticky texture when cooked (submerged in water) and easily absorb the flavors of whatever they are cooked with. 
-    Made from only two ingredients, white rice flour and water, this versatile noodles can be stir-fried, cooked in soups and combined with all sorts of sauces. `,
-    image: img5,
+    description: `Ingredients: Chilli, sugar, garlic, salt, water, wasabi paste (Horseradish, Wasabi 10%, Corn starch, Soybean oil, Water, Salt, Wasabi flavour), wasabi flavour monosodium glutamate E621, E260 & E330 acid regulators, Xantham Gum E415, potassium sorbate E202`,
+    image: img6,
+    showMore: false
+  },
+  {
+    id: 7,
+    title: "Sriracha-Mayo, Flying Goose, 455ml",
+    searchTerm: "sauce",
+    price: "1190",
+    currency: "Ft",
+    description: `Ingredients: water, chilli 20%, SOYbean oil, sugar, distilled vinegar, modified corn starch, salt, stabilizer: E415, garlic, MUSTARD, acids: E260, E330, flavour enhancer: E621, preservative: E202, antioxidant : E319.`,
+    image: img7,
+    showMore: false
+  },
+  {
+    id: 8,
+    title: "Sushi Nori roasted seaweed 11g",
+    searchTerm: "nori",
+    price: "1390",
+    currency: "Ft",
+    description: `Roasted seaweeds, ideal to prepare sushi “MAKI”.
+    Contains 8 sheets (makes around 50 sushis).
+    Also delicious torn into strips and used in salads or rice topping.`,
+    image: img8,
+    showMore: false
+  },
+  {
+    id: 9,
+    title: "Sushi Nori roasted seaweed 11g",
+    searchTerm: "nori",
+    price: "1390",
+    currency: "Ft",
+    description: `Roasted seaweeds, ideal to prepare sushi “MAKI”.
+    Contains 8 sheets (makes around 50 sushis).
+    Also delicious torn into strips and used in salads or rice topping.`,
+    image: img8,
+    showMore: false
+  },
+  {
+    id: 10,
+    title: "Sushi Nori roasted seaweed 11g",
+    searchTerm: "nori",
+    price: "1390",
+    currency: "Ft",
+    description: `Roasted seaweeds, ideal to prepare sushi “MAKI”.
+    Contains 8 sheets (makes around 50 sushis).
+    Also delicious torn into strips and used in salads or rice topping.`,
+    image: img8,
     showMore: false
   }
 ]
