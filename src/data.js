@@ -4,12 +4,13 @@ import img5 from "./img/img5.png"
 import img6 from "./img/img6.jpeg"
 import img7 from "./img/img7.jpeg"
 import img8 from "./img/img8.webp"
+import img9 from "./img/img9.jpeg"
 
 export const data = [
   {
     id: 1,
     title: "Kikkoman Soy Sauce, 150ml",
-    searchTerm: "sauce",
+    category: "Sauce",
     price: "3995",
     currency: "Ft",
     description: `If you are looking for new market trending items, we present the Soya Sauce Kikoman (150 ml), material: CrystalSoya Sprouts, Wheat and SaltImportant information: The packaging of the product may vary in its design, depending on the manufacturer's advertising promotions or the time of year. The different packaging is kept until the stock runs out.Format: 150 mlNutri-Score grade: CCarbohydrates (g): 3,2Proteins (g): 10Salt (g): 16,9Sugars (g): 0,6Sodium (g): 6,76Energy (kJ): 325Energy Kj (kJ): 325`,
@@ -19,7 +20,7 @@ export const data = [
   {
     id: 2,
     title: "Kikkoman Soy Sauce, Less Salt, 150ml",
-    searchTerm: "sauce",
+    category: "Sauce",
     price: "4195",
     currency: "Ft",
     description: `How about a little less salt? If you prefer a low salt diet, why not try out our Naturally Brewed Less Salt Soy Sauce. Almost half of the sauce?s salt content is removed in a special process, making it ideal for people who prefer to eat reduced salt diets. Kikkoman Naturally Brewed Less Salt Soy Sauce is no less delicious than the original and its unique savoury flavour remains fully intact. As a result, it?s just as versatile as the classic soy sauce. Add it to your sauces, soups, vegetables or pan-fried dishes to optimise the flavour.`,
@@ -29,7 +30,7 @@ export const data = [
   {
     id: 3,
     title: "Oyster Sauce 150ml, Maekrua",
-    searchTerm: "sauce",
+    category: "Sauce",
     price: "950",
     currency: "Ft",
     description: `Oyster Sauce is made from fermented oysters with soy sauce and is a popular herbal condiment in Thai cuisine. In terms of taste, oyster sauce can be seen as a refined, spicy soy sauce. Compared to fish sauce, oyster sauce is clearly milder, sweeter and less salty. Thanks to the creamy consistency of Maekrua Oyster Sauce you can marinate meats or coat food directly during cooking. Use the delicious Maekrua Oyster Sauce also as a ready-made dip for snacks, in hot and cold salads, and wok dishes.`,
@@ -39,7 +40,7 @@ export const data = [
   {
     id: 4,
     title: "Quick fried noodles VIMIXA 500g",
-    searchTerm: "pasta",
+    category: "Pasta",
     price: "795",
     currency: "Ft",
     description: `If you are looking for new market trending items, we present the Soya Sauce Kikoman (150 ml), material: CrystalSoya Sprouts, Wheat and SaltImportant information: The packaging of the product may vary in its design, depending on the manufacturer's advertising promotions or the time of year. The different packaging is kept until the stock runs out.Format: 150 mlNutri-Score grade: CCarbohydrates (g): 3,2Proteins (g): 10Salt (g): 16,9Sugars (g): 0,6Sodium (g): 6,76Energy (kJ): 325Energy Kj (kJ): 325`,
@@ -49,7 +50,7 @@ export const data = [
   {
     id: 5,
     title: "Rice Noodles 3mm 400g Farmer",
-    searchTerm: "pasta",
+    category: "Pasta",
     price: "1090",
     currency: "Ft",
     description: `Farmer rice noodles are 3 mm wide rice flour noodles that are used mostly in the Asian recipes. The noodles have a delicate, soft and sticky texture when cooked (submerged in water) and easily absorb the flavors of whatever they are cooked with. 
@@ -60,7 +61,7 @@ export const data = [
   {
     id: 6,
     title: "Sriracha chili sauce, Flying Goose, 455ml",
-    searchTerm: "sauce",
+    category: "Sauce",
     price: "1090",
     currency: "Ft",
     description: `Ingredients: Chilli, sugar, garlic, salt, water, wasabi paste (Horseradish, Wasabi 10%, Corn starch, Soybean oil, Water, Salt, Wasabi flavour), wasabi flavour monosodium glutamate E621, E260 & E330 acid regulators, Xantham Gum E415, potassium sorbate E202`,
@@ -70,7 +71,7 @@ export const data = [
   {
     id: 7,
     title: "Sriracha-Mayo, Flying Goose, 455ml",
-    searchTerm: "sauce",
+    category: "Sauce",
     price: "1190",
     currency: "Ft",
     description: `Ingredients: water, chilli 20%, SOYbean oil, sugar, distilled vinegar, modified corn starch, salt, stabilizer: E415, garlic, MUSTARD, acids: E260, E330, flavour enhancer: E621, preservative: E202, antioxidant : E319.`,
@@ -80,7 +81,7 @@ export const data = [
   {
     id: 8,
     title: "Sushi Nori roasted seaweed 11g",
-    searchTerm: "nori",
+    category: "Nori",
     price: "1390",
     currency: "Ft",
     description: `Roasted seaweeds, ideal to prepare sushi “MAKI”.
@@ -92,7 +93,7 @@ export const data = [
   {
     id: 9,
     title: "Sushi Nori roasted seaweed 11g",
-    searchTerm: "nori",
+    category: "Nori",
     price: "1390",
     currency: "Ft",
     description: `Roasted seaweeds, ideal to prepare sushi “MAKI”.
@@ -103,14 +104,12 @@ export const data = [
   },
   {
     id: 10,
-    title: "Sushi Nori roasted seaweed 11g",
-    searchTerm: "nori",
+    title: "Japan mochi",
+    category: "Mochi",
     price: "1390",
     currency: "Ft",
-    description: `Roasted seaweeds, ideal to prepare sushi “MAKI”.
-    Contains 8 sheets (makes around 50 sushis).
-    Also delicious torn into strips and used in salads or rice topping.`,
-    image: img8,
+    description: `Mochi is a Japanese rice cake made of mochigome, a short-grain japonica glutinous rice, and sometimes other ingredients such as water, sugar, and cornstarch. The rice is pounded into paste and molded into the desired shape. In Japan, it is traditionally made in a ceremony called mochitsuki.`,
+    image: img9,
     showMore: false
   }
 ]
