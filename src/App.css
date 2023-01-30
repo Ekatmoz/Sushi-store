@@ -52,6 +52,24 @@ button {
   margin: 20px;
   width: 100px;
 }
+.categoryButtonSelected {
+  background-color: green;
+  cursor: pointer;
+  margin: 5px;
+  padding: 5px;
+}
+.categoryButton {
+  cursor: pointer;
+  margin: 5px;
+  padding: 5px;
+}
+.categoryButton:hover {
+  background-color: #fdeb6b;;
+}
+
+.categoryButtonSelected:hover {
+  background-color: green;
+}
 .firstBtn {
   width: 120px;
 }

@@ -40,7 +40,7 @@ export const data = [
   {
     id: 4,
     title: "Quick fried noodles VIMIXA 500g",
-    category: "Pasta",
+    category: 'Pasta',
     price: "795",
     currency: "Ft",
     description: `If you are looking for new market trending items, we present the Soya Sauce Kikoman (150 ml), material: CrystalSoya Sprouts, Wheat and SaltImportant information: The packaging of the product may vary in its design, depending on the manufacturer's advertising promotions or the time of year. The different packaging is kept until the stock runs out.Format: 150 mlNutri-Score grade: CCarbohydrates (g): 3,2Proteins (g): 10Salt (g): 16,9Sugars (g): 0,6Sodium (g): 6,76Energy (kJ): 325Energy Kj (kJ): 325`,
@@ -50,7 +50,7 @@ export const data = [
   {
     id: 5,
     title: "Rice Noodles 3mm 400g Farmer",
-    category: "Pasta",
+    category: 'Pasta',
     price: "1090",
     currency: "Ft",
     description: `Farmer rice noodles are 3 mm wide rice flour noodles that are used mostly in the Asian recipes. The noodles have a delicate, soft and sticky texture when cooked (submerged in water) and easily absorb the flavors of whatever they are cooked with. 
@@ -105,7 +105,7 @@ export const data = [
   {
     id: 10,
     title: "Japan mochi",
-    category: "Mochi",
+    category: 'Mochi',
     price: "1390",
     currency: "Ft",
     description: `Mochi is a Japanese rice cake made of mochigome, a short-grain japonica glutinous rice, and sometimes other ingredients such as water, sugar, and cornstarch. The rice is pounded into paste and molded into the desired shape. In Japan, it is traditionally made in a ceremony called mochitsuki.`,
