@@ -1,8 +1,12 @@
 import { useState } from "react";
+import { useDispatch } from "react-redux";
 import ChangeQuantity from "../Cart/ChangeQuantity";
+import {addItemToCart} from "../../redux/cartSlice";
 
 const Product = ({product}) => {
   const [quantity, setQuantity] = useState(1);
+
+  const dispatch = useDispatch();
 
   return ( <div className="product-card">
     <img src={product.image} alt="item" width="100px"/>
@@ -12,7 +16,7 @@ const Product = ({product}) => {
 
             <div className="cart-button">
               <ChangeQuantity quantity={quantity} setQuantity={setQuantity}/>
-              <button className="bascket">
+              <button onClick={() => {dispatch(addItemToCart({product, quantity}))}} className="bascket">
                 <svg xmlns="http://www.w3.org/2000/svg" 
                   width="16" 
                   height="16" 
@@ -27,4 +31,4 @@ const Product = ({product}) => {
   </div> );
 }
  
-export default Product;
+export default Product; 

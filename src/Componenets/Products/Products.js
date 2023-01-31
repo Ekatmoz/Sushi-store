@@ -5,7 +5,7 @@ import { getSelectedCategory } from "../../redux/filterSlice";
 
 const Products = () => {
   const selectedCategory = useSelector(getSelectedCategory);
-  
+
   return ( <div className="products">
     {data.filter(product => {
       if (selectedCategory === "All") return true;
@@ -14,6 +14,7 @@ const Products = () => {
       )
       .map(product => <Product product={product} key={product.id}/>)}
   </div> );
+
 }
  
 export default Products;
