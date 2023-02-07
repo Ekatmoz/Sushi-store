@@ -11,6 +11,9 @@ nav {
   text-decoration: none;
   color: black;
   text-transform: uppercase;
+  display: flex;
+  align-items: baseline;
+  border: 1px solid black;
 }
 .logo {
   font-weight: bold;
@@ -53,7 +56,8 @@ button {
   width: 100px;
 }
 .categoryButtonSelected {
-  background-color: green;
+  background-color: #FFBB0D;
+  box-shadow: #D9D9D9;
   cursor: pointer;
   margin: 5px;
   padding: 5px;
@@ -64,11 +68,11 @@ button {
   padding: 5px;
 }
 .categoryButton:hover {
-  background-color: #fdeb6b;;
+  background-color: #FFBB0D;;
 }
 
 .categoryButtonSelected:hover {
-  background-color: green;
+  background-color: #eeeeee;
 }
 .firstBtn {
   width: 120px;
@@ -93,7 +97,6 @@ input {
   background-color: #FFBB0D;
   border-radius: 50%;
   margin-left: 50px;
-  padding: 10px;
 }
 
 /* ---- CARDS ---- */
@@ -128,12 +131,16 @@ a {
 }
 .card-price {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  align-items: baseline;
 }
 .cart-button {
   display: flex;
   width: 150px;
   margin-left: 10px;
+}
+.icon {
+  width: 20px;
 }
 /* ---- ABOUT ---- */
 .about-shape {
