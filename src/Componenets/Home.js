@@ -1,8 +1,9 @@
 import { useState } from "react";
 import Buttons from "./Filters/Buttons";
+import Footer from "./Footer/Footer";
 import Header from "./Header";
 import Products  from "./Products/Products"
-import Search from "./Search";
+
 
 const Home = () => {
   const [inputText, setInputText] = useState("");
@@ -10,10 +11,10 @@ const Home = () => {
   return ( <div>
     <Header/>
     <Buttons/>
-    <Search setState={setInputText}/>
     <div>
       <Products inputText={inputText}/>
     </div>
+    <Footer/>
    
   </div> );
 }

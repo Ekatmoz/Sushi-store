@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import CartTotal from "./Cart/CartTotal";
+import Search from "./Search";
 
 
 const Navbar = () => {
@@ -9,6 +10,7 @@ const Navbar = () => {
     <Link to="/" className='link'>Home</Link> 
     <Link to="/about" className='link'>About</Link>
     <Link to="/contact" className='link'>Contact</Link>
+    <Search/>
     <Link to="/cart"className="link">
       <CartTotal/>
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-bag" viewBox="0 0 16 16">

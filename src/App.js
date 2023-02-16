@@ -9,6 +9,9 @@ import Cart from './Componenets/Cart/Cart';
 import Contact from './Componenets/Contact';
 import Home from './Componenets/Home';
 import Navbar from './Componenets/Navbar';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 
 function App() {

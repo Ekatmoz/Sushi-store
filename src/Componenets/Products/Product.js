@@ -18,10 +18,11 @@ const Product = ({product}) => {
     <div className="product-card">
       
       <div>
-        <img src={product.image} alt="item" width="250px"/>
+        <img src={product.image} alt="item" width="200px"/>
       </div>
     
       <h3>{product.title}</h3>
+      <p>{product.description}</p>
       
       <div className="card-price">
         <h6 className="price">{product.price}{product.currency}</h6>
