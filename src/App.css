@@ -80,6 +80,12 @@ button {
 }
 .firstBtn {
   width: 120px;
+  border-radius: 20px;
+  padding: 5px;
+}
+.firstBtn a {
+  text-decoration: none;
+  color: #fff;
 }
 .firstBtn:hover {
   background: #FFBB0D;
@@ -99,7 +105,9 @@ button {
   border-radius: 50%;
   margin-left: 50px;
 }
-
+.filters {
+  display: flex;
+}
 
 /* ---- CARDS ---- */
 .products {
@@ -147,17 +155,23 @@ a {
 /* ---- SHOPPING CART ---- */
 .cart-item {
   display: flex;
+  justify-content: space-between;
   padding: 2%;
-  flex-grow: 1;
-  width: 300px;
-  margin: 10px;
+  /* flex-grow: 1; */
+  width: 75%;
+  margin: 5px;
   box-shadow: 3px 5px 15px grey;
   text-align: center;
 }
-
 .cart {
   display: flex;
   flex-direction: column;
+
+}
+.cart-page {
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 /* ---- ABOUT ---- */

@@ -49,7 +49,9 @@ export const getTotalPrice = state => {
     return cartItems.totalPrice + total
   }, 0)
 }
-export const getCartItems = state => state.cart.cartItems;
-export const { addItemToCart, removeItem, updateQuantity } = cartSlice.actions
+
 export default cartSlice.reducer;
+export const getCartItems = state => state.cart.cartItems;
+export const { addItemToCart, removeItem, updateQuantity } = cartSlice.actions;
+
 

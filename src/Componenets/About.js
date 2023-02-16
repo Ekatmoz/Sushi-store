@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import about2 from "../img/about2.jpg"
+import Footer from "./Footer/Footer";
 const About = () => {
   return ( <div>
     <div className="about-shape"></div>
@@ -16,7 +17,7 @@ const About = () => {
       <button className="secondBtn"><Link to="/" className="btn">Home</Link> </button>
       </div>
     </div>
-   
+    <Footer/>
   </div> );
 }
  

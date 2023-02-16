@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import CartTotal from "./Cart/CartTotal";
 import Search from "./Search";
 
-
 const Navbar = () => {
 
   return ( <nav>

@@ -15,7 +15,7 @@ const Product = ({product}) => {
 
 
   return ( 
-    <div className="product-card">
+    <div className="product-card"  id="products">
       
       <div>
         <img src={product.image} alt="item" width="200px"/>
