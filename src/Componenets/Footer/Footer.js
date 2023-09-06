@@ -34,7 +34,7 @@ const Footer = () => {
           <div>
             <h4>Nyitvatartás</h4>
             <p><strong>Kedd-Szombat:</strong> 11:00 - 19:00</p>
-            <p><strong>Vasárnap:</strong> 11:00 - 19:00</p>
+            <p><strong>Vasárnap:</strong> 11:00 - 15:00</p>
             <p><strong>Hétfőn: Zárva</strong></p>
           
           </div>

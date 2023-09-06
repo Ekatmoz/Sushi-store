@@ -14,6 +14,8 @@ const Cart = () => {
         {cartItems.map((cartItem, index) => <CartItem cartItem={cartItem} key={index}/>)}
         <p className="d-flex justify-content-end">TOTAL: {totalPrice} Ft</p>
       </div>
+      <button>CONTINUE SHOPPING</button>
+      <button>CHECKOUT NOW</button>
       <Footer/>
   </div> );
 }

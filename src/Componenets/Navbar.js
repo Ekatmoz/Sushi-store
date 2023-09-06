@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
 import CartTotal from "./Cart/CartTotal";
 import Search from "./Search";
+import { Badge } from "@mui/material";
+import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
+import PersonIcon from '@mui/icons-material/Person';
 
 const Navbar = () => {
 
@@ -9,12 +12,18 @@ const Navbar = () => {
     <Link to="/" className='link'>Home</Link> 
     <Link to="/about" className='link'>About</Link>
     <Link to="/contact" className='link'>Contact</Link>
+    <Link to="/product" className='link'>Product</Link>
     <Search/>
     <Link to="/cart"className="link">
       <CartTotal/>
-      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-bag" viewBox="0 0 16 16">
-       <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
-      </svg></Link>
+      <Badge badgeContent={4} color="success">
+        <ShoppingCartOutlinedIcon className="badgeCart"/>
+      </Badge>
+    </Link>
+    <Link to="/login"className="link">
+        <PersonIcon/>
+    
+    </Link>
 
   </nav> );
 }

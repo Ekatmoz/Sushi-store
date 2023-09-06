@@ -1,4 +1,4 @@
-import Footer from "./Footer/Footer";
+import Footer from "../Componenets/Footer/Footer";
 
 const Contact = () => {
   return ( <div>

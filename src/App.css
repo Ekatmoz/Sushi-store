@@ -27,6 +27,9 @@ nav {
 span{
   color: #e42021;
 }
+.badgeCart {
+  color: black;
+}
 /* ---- HEAD ---- */
 .header {
   display: flex;
@@ -37,7 +40,22 @@ span{
 
 .headerText {
   margin: 50px;
+  width: 600px;
 }
+.headerText h1 {
+  text-transform: uppercase;
+}
+
+.headerText p {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  width: 400px;
+} 
+
+.headerText button {
+  text-transform: uppercase;
+}
+
 .shape {
   background-image: url(./img/bg.jpg);
   background-position: center;
@@ -100,10 +118,17 @@ button {
   justify-content: center;
 }
 
-.bascket {
+.basket {
   background-color: #FFBB0D;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   margin-left: 50px;
+  transition: all 0.5s ease;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 .filters {
   display: flex;
@@ -187,9 +212,9 @@ a {
   justify-content: space-around;
 }
 .secondBtn {
-  background-color: #fff;
-  border: 1px solid #FFBB0D;
+  border: none;
   width: 100px;
+  color: #fff;
 }
 .btn {
   color: #FFBB0D;
@@ -311,5 +336,86 @@ iframe {
 .footer .credits a {
   color: #fff;
 }
+
+/* ---- REGISTER ---- */
+.register {
+  margin-top: 50px;
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5)
+  ),
+  url('https://img.freepik.com/free-photo/asian-style-food-bowls-with-chopsticks-copy-space-writing-text_23-2148123705.jpg?w=1480&t=st=1693987714~exp=1693988314~hmac=f4cebe6ff003f4aaf485adce11f8e95e9448179b3d7f22f50a16f0291d313443');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper {
+  width: 40%;
+  padding: 20px;
+  background-color: #fff;
+}
+.wrapper h1 {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.wrapper form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrapper input {
+  flex: 1;
+  min-width: 40%;
+  margin:  20px 10px 0px 0px;
+  padding: 10px;
+}
+.wrapper p {
+  font-size: 12px;
+  margin: 20px 0px;
+}
+
+.wrapper button {
+  width: 40%;
+  border: none;
+  padding: 15px 20px;
+}
+
+/* ---- LOGIN ---- */
+.login {
+  width: 25%;
+  padding: 20px;
+  background-color: #fff;
+}
+.login form {
+  display: flex;
+  flex-direction: column;
+}
+.login h1 {
+  font-size: 24px;
+  font-weight: 300;
+}
+.login input {
+  flex: 1;
+  min-width: 40%;
+  margin:  10px 0px;
+  padding: 10px;
+}
+
+.login button {
+  width: 40%;
+  border: none;
+  padding: 10px 10px;
+}
+
+.login p {
+  font-size: 12px;
+  margin: 5px 0px;
+}
+/* ---- SINGLE PRODUCT ---- */
 
 
